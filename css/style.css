@@ -242,6 +242,12 @@ li a:hover
     padding-bottom: 55px;
 }
 
+.btn_filter:hover
+{
+    border-color:black;
+    background: cornflowerblue;
+}
+
 .filt_txt
 {
     padding-top: 20px;
@@ -259,12 +265,18 @@ li a:hover
     padding-left: 15px;
 }
 
+#parag
+{
+    margin-bottom: 25px;
+}
+
 /*conteneur de l'espace hebergement et les plus populaire*/
 
 #container_ichi
 {
     display: flex;
     flex-wrap: nowrap;
+    padding-right: 20px;
 }
 
 /*hebergement colonne 1*/
@@ -301,7 +313,7 @@ li a:hover
 
 #lespluspopulaires
 {
-    padding-left: 10px;
+    padding-left: 20px;
     background: #F2F2F2;
     width:33%;
     border-radius: 15px;
@@ -313,7 +325,6 @@ li a:hover
 }
 #hebergement .cardi {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
     width: 100%;
     margin: 10px;
     border:solid white 2px;
@@ -337,13 +348,15 @@ li a:hover
     padding-right: 20px;
     padding-top: 20px;
 }
+
+
+
   #lespluspopulaires .cardi {
     display: flex;
     flex-direction:  row;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
     width: 95%;
-    height: 150px;
+    height: 140px;
     margin-top: 20px;
     margin-bottom: 40px;
     border:solid white 2px;
@@ -363,6 +376,15 @@ li a:hover
     padding:0;
     padding-bottom: 5px;
   }
+
+  #hebergement .containeri 
+  {
+    margin-top:2%;
+
+
+  }
+
+
 
   #hebergement .cardi img
   {
@@ -440,7 +462,7 @@ li a:hover
 #activite .row .col_activite
 {
     width: 25%;
-    height: 600px;
+    height: 500px;
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
@@ -455,7 +477,6 @@ li a:hover
 
 #activite .row .col_activite .cardi {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
     width: 100%;
     
   }
@@ -497,7 +518,7 @@ li a:hover
 
 .foot_space
 {
-    margin-right: 90px;
+    margin-right: 250px;
     margin-left: 20px;
 }
 
