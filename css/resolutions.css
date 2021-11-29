@@ -1,0 +1,285 @@
+
+@media screen and (max-width: 992px) 
+{
+
+    #container_ichi
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:none;
+}
+
+
+
+#hebergement
+{
+
+    width:90%;
+  
+}
+
+#lespluspopulaires
+{
+    margin-top: 20px;
+    width:100%;
+    border-radius: 0px;
+}
+
+#filtre
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+
+}
+
+@media screen and (max-width:768px) 
+{
+    h1{
+        font-size:20px;
+    }
+
+    #container_ichi h2
+    {
+        margin:0;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+
+    
+    #debut
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #formulaire
+{
+    width: 280px;
+
+    
+    
+}
+
+#formulaire button
+{
+
+    top: 20px;
+    left: 240px;
+    width: 40px;
+    height: 40px;
+   
+}
+
+
+
+
+    nav img{
+        display: block;
+        height: 40px;
+    }
+    nav ul{
+        display: block;
+    }
+
+
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        
+    }
+
+
+    nav ul
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-left:0 ;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        
+
+    }
+
+    nav ul li{
+
+        margin-left:0 ;
+        margin-right: 0;
+        padding-bottom: 0px;
+        border-bottom:solid #F2F2F2;
+        width: 100%;
+        
+    }
+
+    li a
+{
+    display: block;
+    height: 30px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 15px;
+    text-align: center;
+    
+     
+}
+
+
+    li a:hover
+{
+
+    border: none;
+    border-bottom:solid #0065FC;
+    color:#0065FC;
+    margin: 0;
+    padding: 0;
+    
+    
+ 
+}
+
+
+
+.lien_active
+{
+    border-top: none;
+    padding: 0px;
+
+    border-bottom:solid #0065FC;
+    color:#0065FC
+}  
+
+#rechercher
+{
+    display:none;
+}
+
+.btn-color #loupe
+{
+    display:block;
+}
+
+}
+
+@media screen and (max-width:600px) 
+{
+
+
+
+
+
+
+/*-----------------------------*/
+
+#container_ichi
+{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-right: 0px;
+}
+
+#hebergement
+{
+    margin: 10px;
+    background-color: white;
+}
+
+#hebergement .row
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#activite .row
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}   
+#activite .cardi
+{
+    margin-bottom: 50px;
+}
+
+#activite .row .col_activite
+{
+    width: 90%;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.longue_card{
+        height: 180px;
+}
+
+.dim_img--bigger
+{
+    height:75%;
+    
+}
+
+.img_big
+{
+  height: 100%;
+  object-fit: cover;
+}
+
+/*Footer*/
+footer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-color: #F2F2F2;
+    
+
+}
+
+.foot_space
+{
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+
+footer ul li
+{
+    padding: 0;
+    padding-top: 15px;
+    font-size: 14px;
+
+}
+
+#foot_pol h3
+{
+    font-size: 14px;
+}
+
+}
