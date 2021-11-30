@@ -11,6 +11,21 @@
     
 }
 
+#formulairecentrer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#formulaire
+{
+    margin: 0;
+    padding: 0;
+    
+}
 
 
 #hebergement
@@ -27,6 +42,10 @@
     border-radius: 0px;
 }
 
+.containeri_adjustmarge{
+    padding-top: 16px;
+}
+
 #filtre
 {
     display: flex;
@@ -34,6 +53,29 @@
     margin-bottom: 30px;
 }
 
+.fontsize_activite
+{
+    font-size: 12px;
+}
+
+
+#activ_adj1 img
+{
+  height: 100%;
+}
+
+#activ_adj2 img
+{
+  height: 100%;
+}
+
+
+
+.foot_space
+{
+    margin-right: 50px;
+    margin-left: 20px;
+}
 
 }
 
@@ -41,6 +83,14 @@
 {
     h1{
         font-size:20px;
+    }
+
+    #container_ichi
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-right: 0px;
     }
 
     #container_ichi h2
@@ -175,25 +225,16 @@
     display:block;
 }
 
+
+
 }
 
 @media screen and (max-width:600px) 
 {
 
-
-
-
-
-
 /*-----------------------------*/
 
-#container_ichi
-{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    padding-right: 0px;
-}
+
 
 #hebergement
 {
@@ -209,6 +250,11 @@
     align-items: center;
     
 }
+
+.containeri_adjustmarge{
+    padding-top: 0px;
+}
+
 
 #activite .row
 {
@@ -249,6 +295,8 @@
   height: 100%;
   object-fit: cover;
 }
+
+
 
 /*Footer*/
 footer

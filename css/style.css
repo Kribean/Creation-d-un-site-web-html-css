@@ -364,7 +364,7 @@ li a:hover
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 100%;
     margin: 10px;
-    border:solid white 2px;
+    border:solid white 5px;
   }
 
   .lien_hotel{
@@ -404,7 +404,12 @@ li a:hover
   
   .containeri {
     padding: 2px 16px;
+
     
+  }
+
+  .containeri_adjustmarge{
+      padding-top: 5px;
   }
   
   #hebergement .containeri h4,p
@@ -420,6 +425,11 @@ li a:hover
 
 
   }
+
+.imgcadre{
+    width: 100%;
+    border: white solid 5px;
+}
 
 
   #hebergement .cardi img
@@ -477,7 +487,7 @@ li a:hover
 
   #img_ni img
   {
-      height: 100%;
+      height: 150%;
   }
   
   #lespluspopulaires .containeri
@@ -499,8 +509,9 @@ li a:hover
 
 #activite h4
 {
-    font-size: 14px;
+    font-size: 13px;
 }
+
 
 #activite .row
 {
