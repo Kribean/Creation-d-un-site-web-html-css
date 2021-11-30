@@ -428,7 +428,7 @@ li a:hover
 
 .imgcadre{
     width: 100%;
-    border: white solid 5px;
+    border: white solid 1px;
 }
 
 
@@ -583,12 +583,15 @@ li a:hover
 
 .foot_space
 {
-    margin-right: 250px;
+    
+    width: 27.5%;
+    margin-right: 25px;
     margin-left: 20px;
 }
 
 footer ul
 {
+    
     list-style-type: none;
     padding-left: 0;
     margin-left: 0;
