@@ -1,6 +1,9 @@
 
 @media screen and (max-width: 992px) 
 {
+    h4{
+        font-size:13px;
+    }
 
     #container_ichi
 {
@@ -224,8 +227,20 @@
 
 .btn-color #loupe
 {
-    display:block;
+    display:inline;
 }
+
+
+
+
+.foot_space
+{
+    
+    width: 27.5%;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+
 
 
 
@@ -314,6 +329,7 @@ footer
 
 .foot_space
 {
+    width: 100%;
     margin-right: 0px;
     margin-left: 30px;
 }
